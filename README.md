@@ -24,12 +24,12 @@ This project demonstrates a scalable and secure deployment strategy for a Django
 
 ### Installation
 
-1. Clone the Repository
+1. Clone the Repository of the web application
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
-2. Build Docker Image 
+2. Build Docker Image:
 docker build -t django-app .
-3. Run Docker Container
+3. Run Docker Container:
 docker run -d -p 8000:8000 django-app
 4. Configure Nginx
 Set up Nginx as a reverse proxy to forward traffic to the Docker container.
