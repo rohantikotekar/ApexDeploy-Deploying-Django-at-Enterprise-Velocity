@@ -49,11 +49,11 @@ server {
 Run Gunicorn to serve the Django application.
 gunicorn --workers 3 --bind 0.0.0.0:8000 your_project.wsgi:application
 
-Deployment
+### Deployment
 Use AWS EC2 for deploying the application with security groups configured for HTTP/HTTPS access.
 Set up auto-scaling groups and load balancers as needed to handle traffic.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 This README provides a detailed guide for setting up and deploying the Django application, ensuring that other developers or team members can easily replicate the setup.
