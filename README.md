@@ -13,14 +13,14 @@ This project demonstrates a scalable and secure deployment strategy for a Django
 
 - Key Responsibilities:
 
-Application Development: Built a full-featured Django application, focusing on modularity and scalability to support future enhancements.
-Server Configuration: Deployed the application on AWS EC2 instances, configuring appropriate security groups to ensure secure access while maintaining necessary functionality.
-Containerization: Created Docker images for the application, enabling consistent deployment across different environments and simplifying updates and scaling.
-Reverse Proxy Setup: Configured Nginx as a reverse proxy to manage client requests efficiently, improving security and load management.
-Application Server Configuration: Set up Gunicorn as the WSGI HTTP server, optimizing for performance and reliability.
-Load Balancing and Scalability: Implemented Nginx load balancing to distribute traffic across multiple Gunicorn worker processes, enhancing the application’s ability to handle high traffic volumes.
-Reduced Deployment Time: Achieved a 50% reduction in deployment time by automating the containerization and deployment process with Docker and Nginx.
-Improved Performance: Enhanced application performance, handling up to 10,000 concurrent connections seamlessly.
+- Application Development: Built a full-featured Django application, focusing on modularity and scalability to support future enhancements.
+- Server Configuration: Deployed the application on AWS EC2 instances, configuring appropriate security groups to ensure secure access while maintaining necessary functionality.
+- Containerization: Created Docker images for the application, enabling consistent deployment across different environments and simplifying updates and scaling.
+- Reverse Proxy Setup: Configured Nginx as a reverse proxy to manage client requests efficiently, improving security and load management.
+- Application Server Configuration: Set up Gunicorn as the WSGI HTTP server, optimizing for performance and reliability.
+- Load Balancing and Scalability: Implemented Nginx load balancing to distribute traffic across multiple Gunicorn worker processes, enhancing the application’s ability to handle high traffic volumes.
+- Reduced Deployment Time: Achieved a 50% reduction in deployment time by automating the containerization and deployment process with Docker and Nginx.
+- Improved Performance: Enhanced application performance, handling up to 10,000 concurrent connections seamlessly.
 
 ## Getting Started
 
