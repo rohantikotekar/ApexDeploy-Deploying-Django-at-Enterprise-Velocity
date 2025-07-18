@@ -52,3 +52,6 @@ server {
 gunicorn --workers 3 --bind 0.0.0.0:8000 your_project.wsgi:application
 
 5. Deploy it to AWS EC2 as shown in the Demo video
+
+   ### Demo Video
+   Link: https://drive.google.com/file/d/1UirxI-EF8oMfFZjRLQeSRZO_lcSvBMOK/view?usp=sharing
