@@ -1,5 +1,4 @@
-# Scalable Django Web Application Deployment
-
+# ApexDeploy: Deploying Django App at Enterprise Velocity
 This project demonstrates deploying a Django web app on AWS EC2 using Docker, Nginx, and Gunicorn—ensuring scalability, security, and high performance.
 
 ## Features
