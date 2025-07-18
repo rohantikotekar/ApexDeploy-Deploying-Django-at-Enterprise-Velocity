@@ -32,7 +32,7 @@ This project demonstrates deploying a Django web app on AWS EC2 using Docker, Ng
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git  
 cd your-repo-name
-```bash
+bash```
 
 2. Build and run Docker container
 docker build -t django-app .  
